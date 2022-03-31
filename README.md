@@ -1,7 +1,7 @@
 # QRMulit-Git
 QRMulit
 
-將 <DefaultTrackableEventHandler> 修改成
+將 DefaultTrackableEventHandler 修改成
   
   /*==============================================================================
 Copyright (c) 2017 PTC Inc. All Rights Reserved.
