@@ -9,7 +9,6 @@ public class Manager : MonoBehaviour
     public GameObject[] cube;
     private GameObject camera;
     private GameObject cloneCamera;
-    private GameObject ARCamera;
     public static bool isEnableObj = false;
 
     void Awake()
@@ -34,8 +33,6 @@ public class Manager : MonoBehaviour
             {
                 cloneCamera = Instantiate(camera,new Vector3(0,0,1977),new Quaternion(0,0,180,0));
                 cloneCamera.transform.localScale = new Vector3(-2000,2000,0);
-                print(cloneCamera.transform.position);
-                ARCamera = GameObject.Find("BackgroundPlane");
             }
         }
         /*if (ARCamera != null)
